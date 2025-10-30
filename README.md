@@ -298,7 +298,6 @@ MIT License - Feel free to fork and build upon this!
 - [ ] Browser extension (Chrome/Firefox)
 - [ ] Telegram bot integration
 - [ ] Discord bot integration
-- [ ] Multi-chain support (ETH, BSC, Arbitrum)
 - [ ] $GDNX token launch & staking
 - [ ] DAO governance
 - [ ] Advanced portfolio tracking
@@ -315,3 +314,4 @@ Guardian X - Your Shield in the Decentralized World🛡️
 
 
 *Protecting traders since 2025. Secure your wallet effortlessly with one click.*
+
