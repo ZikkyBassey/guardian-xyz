@@ -1,14 +1,13 @@
-# Guardian X 🛡️
+ Guardian X 🛡️
 
 **The Most Advanced Solana Token Security Scanner**
 
 Guardian X is the #1 comprehensive security platform for Solana tokens, providing real-time threat detection, AI-powered audits, and wallet protection. Built for traders, developers, and communities who demand the highest level of security.
 
----
 
-## 🚀 Why Guardian X is the Best
 
-### Real-Time DexScreener Integration
+ Why Guardian X is the Best
+-Real-Time DexScreener Integration
 - **Live Liquidity Data**: Fetches real USD liquidity values from DexScreener API
 - **Market Intelligence**: Real-time price, volume, and FDV tracking
 - **Accurate Detection**: $76K liquidity? We'll show it as SAFE, not a false honeypot
@@ -19,27 +18,26 @@ Guardian X is the #1 comprehensive security platform for Solana tokens, providin
 - **Context-Aware**: Mint authority only flagged as risk when combined with low liquidity
 
 ### Comprehensive Security Checks
-- ✅ Real liquidity verification via DexScreener
-- ✅ Honeypot detection using on-chain data
-- ✅ Rug pull risk assessment
-- ✅ Mint & freeze authority verification
-- ✅ Transfer restrictions analysis
-- ✅ Tax calculation (buy/sell)
-- ✅ Volume & market activity tracking
-- ✅ AI-powered audit reports
+-  Real liquidity verification via DexScreener
+-  Honeypot detection using on-chain data
+-  Rug pull risk assessment
+-  Mint & freeze authority verification
+-  Transfer restrictions analysis
+-  Tax calculation (buy/sell)
+-  Volume & market activity tracking
+-  AI-powered audit reports
 
----
 
-## 💎 Pricing Tiers
+ Pricing Tiers
 
-### 🆓 Free Scan
+Free Scan
 - Quick Honeypot Check
 - Dust Wallet Detection
 - Basic Token Info
 - **3 Free Scans Daily**
 - **Price: FREE**
 
-### 💎 Deep Scan
+ Deep Scan
 - Full Smart Contract Analysis
 - **Real-time DexScreener Data**
 - Rug & Blacklist Detection
@@ -47,7 +45,7 @@ Guardian X is the #1 comprehensive security platform for Solana tokens, providin
 - Threat Meter + Human Explanation
 - **Price: $0.10 USD per scan**
 
-### 🧠 Pro Guardian ($9.99/month)
+ Pro Guardian ($9.99/month)
 - **Unlimited Deep Scans**
 - Predictive AI Threat Modeling
 - Wallet Trust Score Tracking
@@ -57,7 +55,7 @@ Guardian X is the #1 comprehensive security platform for Solana tokens, providin
 - Exclusive Threat Reports
 - Daily Gem Claiming
 
-### 🪙 OG Guardian NFT (Limited)
+ 🪙 OG Guardian NFT (Limited)
 - **Lifetime Pro Access**
 - Free Unlimited Scans
 - Exclusive OG Badge
@@ -66,38 +64,34 @@ Guardian X is the #1 comprehensive security platform for Solana tokens, providin
 - Early Feature Access
 - Tradable on Marketplaces
 
-### 🧰 API / B2B
+ API / B2B
 - Volume-based pricing ($0.02-$0.05/scan)
 - Custom branding & dashboard
 - Team support
 - Perfect for wallets, DEXes, NFT marketplaces
 
----
 
-## 🎁 Referral System - Earn While You Protect
+  Referral System - Earn While You Protect
 
 - **Invite Friends**: +1 FREE Deep Scan per signup
 - **Share on X**: +3 Bonus Deep Scans per verified share
 - **Top Referrer**: Free Pro Guardian + Leaderboard exposure
 - **OG NFT Holders**: 2× referral rewards
-
-### Your Personal Referral Link
+ Your Personal Referral Link
 Every user gets a unique referral code automatically. Share it and stack rewards!
 
----
 
-## 💰 Daily Gems System
+Daily Gems System
 
 Claim 1 gem daily for future $GDNX token airdrop eligibility. The more gems you collect, the better your allocation!
 
----
 
-## 🔥 Features That Make Us #1
 
-### 1. Real Liquidity Verification
+ Features That Make Us #1
+ 1. Real Liquidity Verification
 Unlike other scanners that use mock simulations, we fetch actual liquidity data from DexScreener:
 ```javascript
-// ✅ Guardian X
+    Guardian X
 const liquidityUsd = await fetchFromDexScreener(tokenAddress)
 if (liquidityUsd >= 50000) markAsSafe()
 
@@ -105,51 +99,45 @@ if (liquidityUsd >= 50000) markAsSafe()
 if (mockSimulation.failed) markAsHoneypot() // Often wrong!
 ```
 
-### 2. Smart Context-Aware Analysis
+  2. Smart Context-Aware Analysis
 - High liquidity ($50K+) → Safe even if not explicitly locked
 - Medium liquidity ($10K-$50K) unlocked → Suspicious
 - Low liquidity (<$10K) → High risk
 - No liquidity → Honeypot
 
-### 3. AI-Powered Comprehensive Audits
+ 3. AI-Powered Comprehensive Audits
 - Uses Google Gemini AI
 - Analyzes all metrics holistically
 - Provides human-readable explanations
 - Scores tokens 0-100 with detailed findings
 
-### 4. Wallet Protection
+ 4. Wallet Protection
 - Dust token detection
 - Real-time wallet analysis
 - Simulated transaction testing
 - Risk score for holdings
 
-### 5. Beautiful, Professional UI
+ 5. Beautiful, Professional UI
 - Dark mode optimized
 - Real-time statistics dashboard
 - Animated risk meters
 - Color-coded threat levels
 - Mobile responsive
 
----
-
-## 🛠️ Tech Stack
-
+ Tech Stack
 - **Frontend**: React + TypeScript + Vite
 - **Styling**: Tailwind CSS + Custom Design System
 - **Backend**: Supabase Edge Functions
 - **Blockchain**: Solana Web3.js
 - **APIs**: DexScreener, Solana RPC
 - **AI**: Google Gemini 2.5 Flash
-- **Payments**: Solana Pay to treasury
+- **Payments**: Solana Pay to treasury , Magic Block
 
----
 
-## 💻 Quick Start
-
-### Prerequisites
+ Prerequisites
 - Node.js & npm installed ([install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
 
-### Setup
+Setup
 ```bash
 # Clone the repository
 git clone <YOUR_GIT_URL>
@@ -171,7 +159,7 @@ Required environment variables:
 
 ---
 
-## 🔐 Security & Privacy
+ Security & Privacy
 
 - All payments verified on-chain
 - Row-Level Security (RLS) on all tables
@@ -179,9 +167,7 @@ Required environment variables:
 - No API keys stored client-side
 - CORS-protected edge functions
 
----
-
-## 📊 Platform Statistics
+ Platform Statistics
 
 Live tracking of:
 - Total scans performed
@@ -189,29 +175,26 @@ Live tracking of:
 - Active wallets analyzed
 - Real-time threat detection
 
----
 
-## 🎯 Use Cases
+ Use Cases
 
-### For Traders
+For Traders
 Scan tokens before buying to avoid:
 - Honeypots (can't sell)
 - Rug pulls (liquidity removal)
 - Hidden mint functions
 - Excessive taxes
 
-### For Developers
+For Developers
 Benchmark your token security before launch and ensure it passes all checks.
 
-### For Communities
+ For Communities
 Protect members with real-time monitoring and risk alerts.
 
-### For DeFi Protocols
+ For DeFi Protocols
 Integrate our API to protect users automatically.
 
----
-
-## 🚦 Safety Indicators Explained
+ 🚦 Safety Indicators Explained
 
 | Indicator | Safe | Suspicious | Dangerous |
 |-----------|------|------------|-----------|
@@ -222,7 +205,7 @@ Integrate our API to protect users automatically.
 
 ---
 
-## 📱 Mobile Support
+ 📱 Mobile Support
 
 Fully responsive design works perfectly on:
 - Desktop (1920px+)
@@ -232,39 +215,39 @@ Fully responsive design works perfectly on:
 
 ---
 
-## 🌐 Deployment
+Deployment
 
-### Build for Production
+ Build for Production
 ```bash
 npm run build
 ```
 
-### Deploy
+ Deploy
 Deploy the `dist` folder to your preferred hosting service (Vercel, Netlify, etc.)
 
 ---
 
-## 📝 Changelog
+Changelog
 
-### v2.0.0 - The Best Scanner Update ⭐
-- ✅ Real DexScreener API integration
-- ✅ Fixed false honeypot detections
-- ✅ Smart liquidity-based risk scoring
-- ✅ Pricing reduced to $0.10/scan
-- ✅ Market data display (price, volume, FDV)
-- ✅ Risk factors breakdown
-- ✅ Security guide for users
-- ✅ Improved UI/UX
+v2.0.0 - The Best Scanner Update 
+-  Real DexScreener API integration
+- Fixed false honeypot detections
+- Smart liquidity-based risk scoring
+- Pricing reduced to $0.10/scan
+- Market data display (price, volume, FDV)
+- Risk factors breakdown
+-  Security guide for users
+-  Improved UI/UX
 
-### v1.0.0 - Initial Release
+ v1.0.0 - Initial Release
 - Basic honeypot detection
 - AI audit system
 - User authentication
 - Payment integration
 
----
 
-## 🏆 What Makes Us Different
+
+ What Makes Us Different
 
 | Feature | Guardian X | Other Scanners |
 |---------|------------|----------------|
@@ -276,18 +259,16 @@ Deploy the `dist` folder to your preferred hosting service (Vercel, Netlify, etc
 | False Positives | ✅ Minimal | ❌ Common |
 | Real-time Market Data | ✅ Yes | ❌ No |
 
----
+ Architecture
 
-## 🏗️ Architecture
-
-### Edge Functions
+Edge Functions
 Located in `supabase/functions/`:
 - `honeypot-scanner` - Main token security scanner with DexScreener integration
 - `dust-scanner` - Wallet dust detection
 - `token-audit` - AI-powered comprehensive audit
 - `process-payment` - Solana payment verification
 
-### Database Schema
+Database Schema
 - `user_profiles` - User accounts with tier and referral tracking
 - `token_scans` - Scan history and results
 - `wallet_scans` - Wallet analysis data
@@ -297,26 +278,21 @@ Located in `supabase/functions/`:
 - `daily_gems` - Gem claiming records
 - `social_shares` - Social media share tracking
 
----
 
-## 🙏 Credits
+Credits
 
-Built with ❤️ using:
 - [Supabase](https://supabase.com) - Backend infrastructure
 - [DexScreener](https://dexscreener.com) - Real-time market data API
 - [Solana](https://solana.com) - Fast, decentralized blockchain
 - [React](https://react.dev) - UI framework
 - [Vite](https://vitejs.dev) - Build tool
 
----
-
-## 📄 License
+ License
 
 MIT License - Feel free to fork and build upon this!
 
----
 
-## 🔮 Roadmap
+ Roadmap
 
 - [ ] Mobile app (iOS/Android)
 - [ ] Browser extension (Chrome/Firefox)
@@ -329,14 +305,13 @@ MIT License - Feel free to fork and build upon this!
 - [ ] Real-time price alerts
 - [ ] Historical scan analytics
 
----
-
-## 🌟 Treasury Wallet
+ Treasury Wallet
 
 All payments flow to: `5uMqgwwLJEsBUWkcrRbhzphz8kzfsgVxdPYw2Z5p7mpy`
 
----
 
-**Guardian X - Your Shield in the Decentralized World** 🛡️
 
-*Protecting traders since 2025. One scan at a time.*
+Guardian X - Your Shield in the Decentralized World🛡️
+
+
+*Protecting traders since 2025. Secure your wallet effortlessly with one click.*
